@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to ng-admin!');
+    expect(page.getTitleText()).toEqual('Welcome to super-ng-admin!');
   });
 
   afterEach(async () => {
